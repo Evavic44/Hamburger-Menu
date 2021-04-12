@@ -1,0 +1,13 @@
+/* Hamburger Styling */
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: hover 3s ease-in-out;
+    background-color: #101010;
+}
