@@ -67,15 +67,28 @@ a {
     display: flex;
 }
 
-.nav-links .nav-item a {
+.nav-menu .nav-item a {
     padding: 1.25rem;
     margin: 0 10px;
-    transition: background 0.5s ease-in-out;
+    transition: background 0.45s ease-in;
 }
 
-.nav-links .nav-item a:hover {
+.nav-menu .nav-item a:hover {
     background-color: var(--primary-color);
     color: #fff;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
 }
 
 /* Responsive */
@@ -103,5 +116,17 @@ a {
     .hamburger {
         display: block;
         cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
     }
 }
