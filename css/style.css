@@ -70,7 +70,7 @@ a {
 .nav-menu .nav-item a {
     padding: 1.25rem;
     margin: 0 10px;
-    transition: background 0.45s ease-in;
+    transition: background 0.3s ease;
 }
 
 .nav-menu .nav-item a:hover {
@@ -99,10 +99,11 @@ a {
         top: 5rem;
         flex-direction: column;
         width: 100%;
-        border-radius: 10px;
+        border-radius: 3px;
         text-align: center;
         transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        background-color: #f4f4f4;
     }
 
     .nav-menu.active {
@@ -110,7 +111,7 @@ a {
     }
 
     .nav-item {
-        margin: 2rem 0;
+        margin: 1.5rem 0;
     }
 
     .hamburger {
