@@ -18,8 +18,9 @@ body {
   line-height: 1.6;
 }
 
-h3, p {
-   color: #fff;
+h3,
+p {
+  color: #fff;
 }
 
 p {
@@ -27,8 +28,8 @@ p {
 }
 
 i {
-   color: #fff; 
-   display: inline;
+  color: #fff;
+  display: inline;
 }
 
 ul {
@@ -41,19 +42,27 @@ a {
 }
 
 section {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
 }
 
 /* Section colors */
-#home { background: black; }
-#about { background: red; }
-#contact { background: orangered; }
-#services { background: blueviolet; }
+#home {
+  background: black;
+}
+#about {
+  background: red;
+}
+#contact {
+  background: orangered;
+}
+#services {
+  background: blueviolet;
+}
 
 /* Navbar Styling */
 .navbar {
@@ -86,12 +95,8 @@ section {
   display: flex;
 }
 
-.nav-item {
-   border-bottom: 1px solid #ccc;
-}
-
 .nav-menu .nav-item a {
-   display: inline-block;
+  display: inline-block;
   padding: 1rem 1.4rem 1rem 1rem;
   width: 100%;
   transition: background 0.3s ease;
@@ -147,6 +152,7 @@ section {
 
   .nav-item {
     width: 100%;
+    border-bottom: 1px solid #ccc;
   }
 
   .hamburger {
