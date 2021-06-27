@@ -15,10 +15,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-}
-
-h3,
-p {
   color: #fff;
 }
 
@@ -27,7 +23,6 @@ p {
 }
 
 i {
-  color: #fff;
   display: inline;
 }
 
