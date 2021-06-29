@@ -42,6 +42,12 @@ section {
   justify-content: center;
   text-align: center;
   height: 100vh;
+  padding: 2rem;
+}
+
+section > * {
+   margin: 0 auto;
+   max-width: 1000px;
 }
 
 /* Section colors */
