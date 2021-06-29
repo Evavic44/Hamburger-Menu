@@ -127,7 +127,7 @@ section {
       -----------------------------------------------------------------------------------
     */
     right: -100%;
-    top: 5.3rem;
+    top: 0rem;
     flex-direction: column;
     /* This controls the width of the navbar container*/
     width: 50%;
@@ -142,6 +142,11 @@ section {
 
   .nav-menu.active {
     right: 0;
+  }
+
+  .nav-menu li:first-child {
+     margin-top: 4.5rem;
+     border-top: 1px solid #ccc;
   }
 
   .nav-item {
